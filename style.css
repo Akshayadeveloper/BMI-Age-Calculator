@@ -1,0 +1,62 @@
+ /* styles.css */
+@import url( 
+"https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+    
+    #calculator {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         background-image:url("https://www.gifcen.com/wp-content/uploads/2022/11/confetti-gif-3.gif");
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    input[type="button"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      background-image: linear-gradient(220.55deg, #00E0EE 0%, #AD00FE 100%);
+    }
+    
+    input[type="button"]:hover {
+        background-color: #0056b3;
+      background-image:url("https://i.pinimg.com/originals/26/d3/3c/26d33c62a153d787478580e79f0dd44d.gif");
+      transform: scale(1.1);
+    }
+  .foot{
+    background-image:url("https://www.gifcen.com/wp-content/uploads/2022/11/confetti-gif-3.gif");
+  }
+  h1{
+    background-image: linear-gradient(to right, rgb(110, 231, 183), rgb(59, 130, 246), rgb(147, 51, 234));
+    background-color: #333;
+    color: #fff;
+    text-align:center;
+  }
+  /* Apply bk color to text*/
+  .gradient-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
